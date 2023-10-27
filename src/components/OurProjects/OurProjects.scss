@@ -1,0 +1,47 @@
+.ourprojects {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.header {
+  margin: 0 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h2 {
+    font-size: 36px;
+  }
+
+  button {
+    font-size: 16px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  margin-bottom: 10px;
+}
+
+.all-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .big-card {
+    margin: 20px;
+    img {
+      width: 740px;
+    }
+  }
+  .small-cards {
+    display: flex;
+    flex-direction: column;
+    .small-card {
+      margin: 20px;
+      img {
+        width: 350px;
+      }
+    }
+  }
+}

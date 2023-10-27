@@ -1,0 +1,31 @@
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  background: #1c1e53;
+  color: white;
+  padding-bottom: 120px;
+}
+
+.hero-text {
+  margin-left: 120px;
+  width: 550px;
+  h1 {
+    font-size: 55px;
+  }
+  h3 {
+    font-size: 15px;
+    font-weight: normal;
+    color: #babbca;
+  }
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.hero-img img {
+  margin-top: 40px;
+  width: 650px;
+}
