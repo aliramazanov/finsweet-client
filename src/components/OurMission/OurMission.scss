@@ -1,0 +1,23 @@
+.ourmission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eff4f9;
+  padding: 100px;
+
+  .ourmission-grids {
+    min-width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
+
+    .grid-ourmission {
+      img {
+        min-width: 500px;
+      }
+      p {
+        max-width: 500px;
+      }
+    }
+  }
+}
