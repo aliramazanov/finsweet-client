@@ -1,0 +1,60 @@
+.benefitsof {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+
+  .benefitsof-header {
+    margin: 20px;
+    width: 400px;
+    text-align: center;
+    h2 {
+      font-size: 32px;
+    }
+  }
+
+  .benefitsof-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    max-width: 1200px;
+
+    .benefitsof-card {
+      width: 350px;
+      background: #f4f6fb;
+      padding: 20px;
+      img {
+        max-width: 20px;
+      }
+    }
+  }
+  .benefitsof-logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    gap: 60px;
+
+    .benefitsof-logos-text {
+      display: flex;
+      flex-direction: column;
+      h2 {
+        margin: 0;
+      }
+      p {
+        margin: 0;
+      }
+    }
+
+    .benefitsof-logos-img {
+      display: flex;
+      justify-content: space-between;
+      gap: 60px;
+
+      img {
+        max-width: 150px;
+      }
+    }
+  }
+}

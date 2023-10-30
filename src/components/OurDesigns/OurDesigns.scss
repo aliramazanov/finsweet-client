@@ -3,25 +3,30 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 80px;
+  padding: 70px;
   gap: 50px;
+
   .ourdesigns-text {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 600px;
+
     h1 {
       font-size: 48px;
       margin: 0;
     }
+
     h3 {
       font-size: 16px;
       font-weight: normal;
     }
+
     p {
       font-size: 16px;
       color: #696a73;
     }
   }
+
   .ourdesigns-img {
     img {
       width: 500px;
@@ -34,9 +39,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
   img {
     width: 1300px;
   }
+
   .second-part-content {
     display: flex;
     flex-direction: column;

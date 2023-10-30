@@ -1,0 +1,44 @@
+.ourteam {
+  background: #f4f6fc;
+  padding-bottom: 80px;
+  padding-top: 20px;
+
+  .ourteam-header {
+    text-align: center;
+    margin: 50px;
+
+    h2 {
+      font-size: 36px;
+    }
+  }
+
+  .team-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    .team-card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background: white;
+      width: 250px;
+      height: 300px;
+      gap: 10px;
+
+      img {
+        width: 150px;
+      }
+
+      h3 {
+        margin: 0;
+      }
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+}
