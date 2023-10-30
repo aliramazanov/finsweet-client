@@ -1,0 +1,119 @@
+.ourdesigns-first-part {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px;
+  gap: 50px;
+  .ourdesigns-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+    h3 {
+      font-size: 16px;
+      font-weight: normal;
+    }
+    p {
+      font-size: 16px;
+      color: #696a73;
+    }
+  }
+  .ourdesigns-img {
+    img {
+      width: 500px;
+    }
+  }
+}
+
+.ourdesigns-second-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  img {
+    width: 1300px;
+  }
+  .second-part-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+    background: #f4f5f5;
+    width: 1200px;
+    h3 {
+      margin-left: 30px;
+      padding: 0;
+    }
+    .text-second-part {
+      display: flex;
+      margin-bottom: 0;
+      .goal-focused {
+        max-width: 600px;
+        margin-left: 30px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        h1 {
+          margin: 0;
+        }
+      }
+      .continous-improvement {
+        max-width: 600px;
+        margin-left: 30px;
+        margin-top: 0;
+        margin-bottom: 30px;
+        h1 {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
+.ourdesigns-third-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  margin-bottom: 50px;
+  .header-third-part {
+    h1 {
+      text-align: center;
+    }
+  }
+  .processes {
+    margin-top: 70px;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .process {
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      .third-part-paragraph {
+        max-width: 300px;
+        margin: 0;
+        p {
+          margin: 0;
+        }
+      }
+      .process-img {
+        display: flex;
+        .ourdesigns-circle {
+          width: 20px;
+          margin-right: 10px;
+        }
+        .ourdesigns-line {
+          width: 200px;
+        }
+      }
+    }
+  }
+}
