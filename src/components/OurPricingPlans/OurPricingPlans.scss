@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 40px;
 
   h2 {
     font-size: 36px;
@@ -34,7 +35,6 @@
       .price {
         display: flex;
         align-items: center;
-        justify-content: center;
         gap: 15px;
 
         h5 {
@@ -52,6 +52,7 @@
           font-size: 28px;
           margin: 0;
         }
+        margin-bottom: 70px;
       }
 
       .whatisincluded {
@@ -78,6 +79,7 @@
         button {
           width: 200px;
           height: 50px;
+          margin-top: 70px;
           border-radius: 50px;
           border: none;
           color: white;
@@ -97,7 +99,6 @@
       .price {
         display: flex;
         align-items: center;
-        justify-content: center;
         gap: 15px;
 
         h5 {
@@ -108,6 +109,14 @@
         p {
           color: #f6da8c;
         }
+      }
+
+      .category-ourpricingplans {
+        h6 {
+          font-size: 28px;
+          margin: 0;
+        }
+        margin-bottom: 40px;
       }
 
       .whatisincluded {
@@ -134,6 +143,7 @@
         button {
           width: 200px;
           height: 50px;
+          margin-top: 70px;
           border-radius: 50px;
           border: none;
           background: #f6da8c;
@@ -151,13 +161,24 @@
       .price {
         display: flex;
         align-items: center;
-        justify-content: center;
         gap: 15px;
 
         h5 {
           margin: 0;
           font-size: 36px;
         }
+
+        p {
+          color: #2007e8;
+        }
+      }
+
+      .category-ourpricingplans {
+        h6 {
+          font-size: 28px;
+          margin: 0;
+        }
+        margin-bottom: 60px;
       }
 
       .whatisincluded {
@@ -168,6 +189,7 @@
           display: flex;
           align-items: center;
           gap: 5px;
+
           img {
             width: 15px;
           }
@@ -178,12 +200,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 20px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-top: 20px;
         padding: 20px;
 
         button {
           width: 200px;
           height: 50px;
+          margin-top: 20px;
           border-radius: 50px;
           border: none;
           color: white;
