@@ -1,0 +1,195 @@
+.header-ourpricingplans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h2 {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+
+  p {
+    width: 550px;
+  }
+}
+
+.plans-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .plans {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+
+    .plan1 {
+      width: 300px;
+      padding: 40px;
+      margin-bottom: 30px;
+      background: #f4f6fb;
+      border-radius: 10px;
+
+      .price {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+
+        h5 {
+          margin: 0;
+          font-size: 36px;
+        }
+
+        p {
+          color: #2007e8;
+        }
+      }
+
+      .category-ourpricingplans {
+        h6 {
+          font-size: 28px;
+          margin: 0;
+        }
+      }
+
+      .whatisincluded {
+        display: flex;
+        flex-direction: column;
+
+        .pointers {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          img {
+            width: 15px;
+          }
+        }
+      }
+
+      .button-ourpricingplans {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        padding: 20px;
+
+        button {
+          width: 200px;
+          height: 50px;
+          border-radius: 50px;
+          border: none;
+          color: white;
+          background: black;
+        }
+      }
+    }
+
+    .plan2 {
+      width: 300px;
+      padding: 40px;
+      margin-bottom: 30px;
+      color: white;
+      background: #292b5a;
+      border-radius: 10px;
+
+      .price {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+
+        h5 {
+          margin: 0;
+          font-size: 36px;
+        }
+
+        p {
+          color: #f6da8c;
+        }
+      }
+
+      .whatisincluded {
+        display: flex;
+        flex-direction: column;
+
+        .pointers {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          img {
+            width: 15px;
+          }
+        }
+      }
+
+      .button-ourpricingplans {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        padding: 20px;
+
+        button {
+          width: 200px;
+          height: 50px;
+          border-radius: 50px;
+          border: none;
+          background: #f6da8c;
+        }
+      }
+    }
+
+    .plan3 {
+      width: 300px;
+      padding: 40px;
+      margin-bottom: 30px;
+      background: #f4f6fb;
+      border-radius: 10px;
+
+      .price {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+
+        h5 {
+          margin: 0;
+          font-size: 36px;
+        }
+      }
+
+      .whatisincluded {
+        display: flex;
+        flex-direction: column;
+
+        .pointers {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          img {
+            width: 15px;
+          }
+        }
+      }
+
+      .button-ourpricingplans {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        padding: 20px;
+
+        button {
+          width: 200px;
+          height: 50px;
+          border-radius: 50px;
+          border: none;
+          color: white;
+          background: black;
+        }
+      }
+    }
+  }
+}

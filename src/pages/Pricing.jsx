@@ -1,3 +1,9 @@
+import OurPricingPlans from "../components/OurPricingPlans/OurPricingPlans.jsx";
+
 export const Pricing = () => {
-  return <div>Pricing</div>;
+  return (
+    <div>
+      <OurPricingPlans />
+    </div>
+  );
 };
