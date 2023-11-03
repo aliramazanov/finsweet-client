@@ -1,0 +1,46 @@
+.features-grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+
+    .grid {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      padding-left: 150px;
+      padding-right: 150px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+      .features-grid-header {
+        display: flex;
+        flex-direction: column;
+
+        h3 {
+          font-size: 36px;
+          margin: 0;
+        }
+      }
+
+      .features-grid-img {
+        img {
+          width: 450px;
+        }
+      }
+    }
+  }
+}
+
+#grid2 {
+  background: #f4f6fb;
+}
+
+#grid4 {
+  background: #fffcf4;
+}
