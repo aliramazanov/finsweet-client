@@ -1,3 +1,11 @@
+import FeaturesHero from "../components/FeaturesHero/FeaturesHero";
+import BenefitsOf from "../components/BenefitsOf/BenefitsOf";
+
 export const Features = () => {
-  return <div>Features</div>;
+  return (
+    <div>
+      <FeaturesHero />
+      <BenefitsOf featuresPage={true} />
+    </div>
+  );
 };

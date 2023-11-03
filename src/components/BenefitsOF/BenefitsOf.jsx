@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import "./BenefitsOf.scss";
 import icon1 from "../../img/icon1.svg";
 import icon2 from "../../img/icon2.svg";
@@ -8,11 +9,30 @@ import logo3 from "../../img/logo3.svg";
 import logo4 from "../../img/logo4.svg";
 import logo5 from "../../img/logo5.svg";
 
-export default function BenefitsOf() {
+export default function BenefitsOf({ featuresPage, aboutUs }) {
   return (
     <div className="benefitsof">
+      {featuresPage && (
+        <div className="benefitsof-logos">
+          <div className="benefitsof-logos-text">
+            <h2>100.000+</h2>
+            <p>Finsweet Users</p>
+          </div>
+          <div className="benefitsof-logos-img">
+            <img src={logo1} />
+            <img src={logo2} />
+            <img src={logo3} />
+            <img src={logo4} />
+            <img src={logo5} />
+          </div>
+        </div>
+      )}
       <div className="benefitsof-header">
-        <h2>The benefits of working with us</h2>
+        {aboutUs ? (
+          <h2>The benefits of working with us</h2>
+        ) : (
+          <h2>The benefits of working with our team</h2>
+        )}
       </div>
       <div className="benefitsof-cards">
         <div className="benefitsof-card">
@@ -40,19 +60,26 @@ export default function BenefitsOf() {
           </p>
         </div>
       </div>
-      <div className="benefitsof-logos">
-        <div className="benefitsof-logos-text">
-          <h2>100.000+</h2>
-          <p>Finsweet Users</p>
+      {aboutUs && (
+        <div className="benefitsof-logos">
+          <div className="benefitsof-logos-text">
+            <h2>100.000+</h2>
+            <p>Finsweet Users</p>
+          </div>
+          <div className="benefitsof-logos-img">
+            <img src={logo1} />
+            <img src={logo2} />
+            <img src={logo3} />
+            <img src={logo4} />
+            <img src={logo5} />
+          </div>
         </div>
-        <div className="benefitsof-logos-img">
-          <img src={logo1} />
-          <img src={logo2} />
-          <img src={logo3} />
-          <img src={logo4} />
-          <img src={logo5} />
-        </div>
-      </div>
+      )}
     </div>
   );
 }
+
+BenefitsOf.propTypes = {
+  featuresPage: PropTypes.bool,
+  aboutUs: PropTypes.bool,
+};
