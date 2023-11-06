@@ -1,3 +1,9 @@
+import BlogHero from "../components/BlogHero/BlogHero";
+
 export const Blog = () => {
-  return <div>Blog</div>;
+  return (
+    <div>
+      <BlogHero />
+    </div>
+  );
 };
