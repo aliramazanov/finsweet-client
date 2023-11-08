@@ -1,3 +1,4 @@
+import "./Pages.scss";
 import { useRef, useState } from "react";
 
 export default function ContactUs() {
@@ -9,35 +10,37 @@ export default function ContactUs() {
   };
 
   return (
-    <div>
+    <div className="contact-us-container">
       <h3>Contact Us</h3>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore.
       </p>
-      <form>
-        <label>
-          Name
+      <div className="contactus-form">
+        <form>
+          <label>
+            Name
+            <input type="text" placeholder="Enter your Name" />
+          </label>
+          <label>
+            Surname
+            <input type="text" placeholder="Enter your Surname" />
+          </label>
+          <label>
+            Email
+            <input type="text" placeholder="Enter your email" />
+          </label>
+          <label>
+            Subject
+            <input type="text" placeholder="Enter a subject" />
+          </label>
+        </form>
+        <div className="inputofcontact">
+          <p>Message</p>
           <input type="text" />
-        </label>
-        <label>
-          Surname
-          <input type="text" />
-        </label>
-        <label>
-          Email
-          <input type="text" />
-        </label>
-        <label>
-          Subject
-          <input type="text" />
-        </label>
-        <label>
-          Message
-          <input type="text" />
-        </label>
-        <button onClick={handleClick}>Send Message</button>
-      </form>
+          <button onClick={handleClick}>Send Message</button>
+        </div>
+      </div>
     </div>
   );
 }
