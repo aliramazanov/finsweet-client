@@ -5,7 +5,7 @@ import blog1 from "../../../src/img/blog1.svg";
 export default function BlogPages() {
   return (
     <div className="blog-card">
-      <BlogHero />
+      <BlogHero blogHero={false} />
       <div className="blog-content">
         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
         <p>
@@ -37,7 +37,7 @@ export default function BlogPages() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
-        <ol>
+        <ul>
           <li>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
           </li>
@@ -47,7 +47,7 @@ export default function BlogPages() {
           <li>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
           </li>
-        </ol>
+        </ul>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
