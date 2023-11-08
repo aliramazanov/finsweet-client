@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 import "./Navigation.scss";
-import Contact from "../Buttons/Contact/Contact";
 
 export default function Navigation() {
   return (
@@ -28,9 +27,9 @@ export default function Navigation() {
       <NavLink className="navlinks" to="/blog">
         Blog
       </NavLink>
-      <div className="contact-button">
-        <Contact />
-      </div>
+      <NavLink className="navlinks" to="/contactus">
+        Contact Us
+      </NavLink>
     </div>
   );
 }
