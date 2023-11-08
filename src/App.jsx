@@ -7,18 +7,22 @@ import { Blog } from "./pages/Blog";
 import { Features } from "./pages/Features";
 import Navigation from "./components/Navigation/Navigation";
 import "./App.scss";
+import BlogPages from "./components/BlogPages/BlogPages";
 
 export default function App() {
   return (
     <BrowserRouter>
       <Navigation />
       <Routes className="routes">
+        {/* <Route path="*" element={<Home />} />  Error */}
         <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/features" element={<Features />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog-card" element={<BlogPages />} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,7 +1,9 @@
+import { NavLink } from "react-router-dom";
 import "./BlogHero.scss";
 import peopleworking from "../../../src/img/peopleworking.svg";
 
-export default function BlogHero() {
+// eslint-disable-next-line react/prop-types
+export default function BlogHero({ blogHero }) {
   return (
     <div className="blog-container">
       <div>
@@ -11,15 +13,20 @@ export default function BlogHero() {
         <p>Andrew Jonson</p>
         <p>Posted on 27th January 2021</p>
       </div>
-      <div className="image-blog-hero"></div>
-      <img src={peopleworking} />
-      <p>
-        Apparently we had reached a great height in the atmosphere, for the sky
-        was a dead black, and the stars had ceased to twinkle. By the same
-        illusion which lifts the horizon of the sea to the level of the
-        spectator on a hillside.
-      </p>
-      <button>Read more</button>
+      <div className="image-blog-hero">
+        <img src={peopleworking} alt="People working" />
+      </div>
+      {blogHero && (
+        <>
+          <p>
+            Apparently we had reached a great height in the atmosphere, for the
+            sky was a dead black, and the stars had ceased to twinkle. By the
+            same illusion which lifts the horizon of the sea to the level of the
+            spectator on a hillside.
+          </p>
+          <NavLink to="/blog-card">Read more</NavLink>
+        </>
+      )}
     </div>
   );
 }
