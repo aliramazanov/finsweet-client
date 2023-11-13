@@ -10,6 +10,7 @@ import BlogPages from "./components/BlogPages/BlogPages";
 import ContactUs from "../src/pages/ContactUs";
 
 import "./App.scss";
+import Portfolio from "./pages/Portfolio";
 export default function App() {
   return (
     <BrowserRouter>
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-card" element={<BlogPages />} />
         <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/portfolio" element={<Portfolio />} />
       </Routes>
     </BrowserRouter>
   );

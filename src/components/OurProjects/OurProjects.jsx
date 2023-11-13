@@ -2,6 +2,7 @@ import "./OurProjects.scss";
 import card1 from "../../img/card1.svg";
 import card2 from "../../img/card2.svg";
 import card3 from "../../img/card3.svg";
+import { NavLink } from "react-router-dom";
 
 export default function OurProjects() {
   return (
@@ -9,7 +10,7 @@ export default function OurProjects() {
       <section>
         <div className="header">
           <h2>View our projects</h2>
-          <button>View more →</button>
+          <NavLink to="/portfolio">View more →</NavLink>
         </div>
       </section>
       <section>
