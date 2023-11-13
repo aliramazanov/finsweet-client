@@ -23,6 +23,11 @@
 .hero-buttons {
   display: flex;
   align-items: center;
+  a {
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+  }
 }
 
 .hero-img img {

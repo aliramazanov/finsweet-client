@@ -1,7 +1,7 @@
 import "./Hero.scss";
 import illustartion from "../../img/illustration.png";
 import ViewOurWork from "../Buttons/ViewOurWork/ViewOurWork";
-import ViewPricing from "../Buttons/ViewPricing/ViewPricing";
+import { NavLink } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -14,7 +14,7 @@ export default function Hero() {
         </h3>
         <div className="hero-buttons">
           <ViewOurWork />
-          <ViewPricing />
+          <NavLink to="/pricing">View Pricing</NavLink>
         </div>
       </div>
       <div className="hero-img">

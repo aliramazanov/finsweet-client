@@ -48,7 +48,7 @@ export default function Portfolio() {
             Apparently we had reached a great height in the atmosphere, for the
             sky was a dead black, and the stars had ceased to twinkle.
           </p>
-          <NavLink>View Portfolio →</NavLink>
+          <NavLink to="/template1">View Portfolio →</NavLink>
         </div>
         <div className="portfolio-template">
           <div className="template-img">
