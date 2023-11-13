@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import pointer1 from "../../img/pointer1.svg";
 import pointer2 from "../../img/pointer2.svg";
 import pointer3 from "../../img/pointer3.svg";
@@ -14,7 +15,7 @@ export default function HowWeWork() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor.
           </p>
-          <button>Get in touch with us →</button>
+          <NavLink to="/contactus">Get in touch with us →</NavLink>
         </div>
       </section>
       <section>
