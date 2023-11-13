@@ -1,7 +1,7 @@
 import OurDesigns from "../components/OurDesigns/OurDesigns";
 import OurMission from "../components/OurMission/OurMission";
 import OurTeam from "../components/OurTeam/OurTeam";
-import BenefitsOf from "../components/BenefitsOf/BenefitsOf.jsx";
+import BenefitsOf from "../components/BenefitsOf/BenefitsOf";
 
 export const About = () => {
   return (
