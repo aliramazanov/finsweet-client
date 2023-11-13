@@ -106,6 +106,14 @@ export default function Portfolio() {
           <NavLink>View Portfolio →</NavLink>
         </div>
       </div>
+      <div className="portfolio-ending">
+        <h2>Let&apos;s build something great together</h2>
+        <p>
+          Nullam vitae purus at tortor mattis dapibus. Morbi purus est,
+          ultricies nec dolor sit amet, scelerisque cursus purus.
+        </p>
+        <button>Contact Us</button>
+      </div>
     </div>
   );
 }
