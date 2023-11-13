@@ -137,33 +137,6 @@
       }
     }
   }
-  .portfolio-ending {
-    max-width: 800px;
-    padding: 40px;
-    margin-bottom: 40px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    h2 {
-      font-size: 48px;
-      margin: 5px;
-    }
-    p {
-      max-width: 600px;
-    }
-    button {
-      background: #fcd980;
-      color: black;
-      padding: 20px 50px;
-      margin: 20px 0;
-      border-radius: 30px;
-      border: none;
-      cursor: pointer;
-      font-weight: bold;
-    }
-  }
 }
 
 .work-categories {
@@ -174,5 +147,111 @@
   gap: 40px;
   a {
     text-decoration: none;
+  }
+}
+.portfolio-ending {
+  max-width: 800px;
+  padding: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h2 {
+    font-size: 48px;
+    margin: 5px;
+  }
+  p {
+    max-width: 600px;
+  }
+  button {
+    background: #fcd980;
+    color: black;
+    padding: 20px 50px;
+    margin: 20px 0;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+.template-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .template-hero {
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h2 {
+      margin: 0;
+      font-size: 42px;
+      width: 600px;
+    }
+    p {
+      width: 900px;
+    }
+    .template-page-img {
+      align-self: center;
+      img {
+        width: 900px;
+      }
+    }
+  }
+  .template-info {
+    width: 59vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    span {
+      font-weight: bold;
+    }
+    .template-client-info {
+      display: flex;
+      flex-direction: column;
+    }
+    .template-client-service {
+      display: flex;
+      flex-direction: column;
+    }
+    .template-client-deliverable {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  hr {
+    width: 59vw;
+    border: 1px solid black;
+  }
+  .about-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 700px;
+    ul {
+      width: 700px;
+    }
+    img {
+      width: 700px;
+    }
+    h3 {
+      font-size: 32px;
+      margin: 5px 0;
+    }
+  }
+  .template-keywords {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    h6 {
+      color: #2405f2;
+      font-size: 20px;
+    }
   }
 }
