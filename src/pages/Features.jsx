@@ -1,5 +1,6 @@
 import FeaturesHero from "../components/FeaturesHero/FeaturesHero";
-import BenefitsOf from "../components/BenefitsOf/BenefitsOf";
+import BenefitsOf from "../../src/components/BenefitsOF/BenefitsOf";
+
 import FeaturesGrid from "../components/FeaturesGrid/FeaturesGrid";
 import FAQ from "../components/FAQ/FAQ";
 
