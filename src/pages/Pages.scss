@@ -1,15 +1,38 @@
-.home {
+.blog-ending {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  .blog-ending {
-    .blog-grids-home {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
+  flex-direction: column;
+
+  .blog-grids-home {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-bottom: 40px;
+
+    .blog-grid-card {
+      img {
+        width: 400px;
+      }
+      h6 {
+        font-size: 22px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+      }
+
+      button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+      }
     }
   }
 }
+
 .contact-us-container {
   display: flex;
   flex-direction: column;
@@ -76,9 +99,11 @@
     color: black;
     outline: none;
   }
+
   p {
     align-self: flex-start;
   }
+
   button {
     margin-top: 10px;
     padding-left: 30px;
@@ -99,6 +124,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
   .portfolio-hero-container {
     width: 100%;
     background: #f4f6fb;
@@ -106,21 +132,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     .portfolio-hero-main {
       width: 720px;
       text-align: center;
       padding: 55px;
+
       h2 {
         font-size: 54px;
         margin: 5px;
       }
     }
+
     .portfolio-social-logos {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 20px;
       padding: 20px;
+
       img {
         width: 20px;
         cursor: pointer;
@@ -131,17 +161,21 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+
     .portfolio-template {
       padding: 10px;
       max-width: 600px;
+
       h3 {
         font-size: 32px;
         margin-top: 5px;
         margin-bottom: 5px;
       }
+
       p {
         max-width: 550px;
       }
+
       .template-img {
         img {
           width: 550px;
@@ -157,10 +191,12 @@
   padding-top: 40px;
   padding-bottom: 40px;
   gap: 40px;
+
   a {
     text-decoration: none;
   }
 }
+
 .portfolio-ending {
   max-width: 800px;
   padding: 40px;
@@ -170,13 +206,16 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
   h2 {
     font-size: 48px;
     margin: 5px;
   }
+
   p {
     max-width: 600px;
   }
+
   button {
     background: #fcd980;
     color: black;
@@ -194,26 +233,32 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
   .template-hero {
     padding: 30px 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     h2 {
       margin: 0;
       font-size: 42px;
       width: 600px;
     }
+
     p {
       width: 900px;
     }
+
     .template-page-img {
       align-self: center;
+
       img {
         width: 900px;
       }
     }
   }
+
   .template-info {
     width: 59vw;
     display: grid;

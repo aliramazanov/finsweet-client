@@ -1,10 +1,10 @@
+import "./Pages.scss";
 import Features from "../components/Features/Features";
 import Feedback from "../components/Feedback/Feedback";
 import Hero from "../components/Hero/Hero";
 import HowWeWork from "../components/HowWeWork/HowWeWork";
 import Inquiry from "../components/Inquiry/Inquiry";
 import OurProjects from "../components/OurProjects/OurProjects";
-
 import homeblog1 from "../../src/img/homeblog1.svg";
 import homeblog2 from "../../src/img/homeblog2.svg";
 import homeblog3 from "../../src/img/homeblog3.svg";
