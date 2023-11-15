@@ -3,6 +3,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  .blog-ending {
+    .blog-grids-home {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
 }
 .contact-us-container {
   display: flex;
