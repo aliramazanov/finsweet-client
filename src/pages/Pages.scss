@@ -255,3 +255,41 @@
     }
   }
 }
+
+.readblog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .read-blog-content {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    h3 {
+      font-size: 36px;
+      max-width: 850px;
+    }
+
+    p {
+      max-width: 850px;
+    }
+
+    ul {
+      text-decoration: none;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .read-blog-img {
+      width: 850px;
+      margin-top: 20px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

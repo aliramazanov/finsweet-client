@@ -24,7 +24,7 @@ export default function BlogHero({ blogHero }) {
             same illusion which lifts the horizon of the sea to the level of the
             spectator on a hillside.
           </p>
-          <NavLink to="/blog-card">Read more</NavLink>
+          <NavLink to="/readblog">Read more</NavLink>
         </>
       )}
     </div>
