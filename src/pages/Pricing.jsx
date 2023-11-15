@@ -1,5 +1,5 @@
 import OurPricingPlans from "../components/OurPricingPlans/OurPricingPlans.jsx";
-import FAQ from "../components/FAQ/FAQ.jsx";
+import FAQ from "../components/FAQComponent/FAQComponent.jsx";
 
 export const Pricing = () => {
   return (

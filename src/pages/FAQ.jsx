@@ -1,3 +1,8 @@
+import FAQComponent from "../components/FAQComponent/FAQComponent";
 export const FAQ = () => {
-  return <div>FAQ</div>;
+  return (
+    <div>
+      <FAQComponent />
+    </div>
+  );
 };
