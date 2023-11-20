@@ -1,7 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "./Pages.scss";
 import facebook from "../../src/img/facebook.svg";
-import twitter from "../../src/img/twitter.svg";
 import instagram from "../../src/img/instagram.svg";
 import linkedin from "../../src/img/linkedin.svg";
 import template1 from "../../src/img/template1.svg";
@@ -10,6 +8,8 @@ import template3 from "../../src/img/template3.svg";
 import template4 from "../../src/img/template4.svg";
 import template5 from "../../src/img/template5.svg";
 import template6 from "../../src/img/template6.svg";
+import twitter from "../../src/img/twitter.svg";
+import "./Pages.scss";
 
 export default function Portfolio() {
   return (

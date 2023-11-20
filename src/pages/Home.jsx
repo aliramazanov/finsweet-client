@@ -8,6 +8,7 @@ import OurProjects from "../components/OurProjects/OurProjects";
 import homeblog1 from "../../src/img/homeblog1.svg";
 import homeblog2 from "../../src/img/homeblog2.svg";
 import homeblog3 from "../../src/img/homeblog3.svg";
+import Footer from "../components/Footer/Footer";
 
 export const Home = () => {
   return (
@@ -68,6 +69,7 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

@@ -16,7 +16,7 @@ import ReadBlog from "./pages/ReadBlog";
 export default function App() {
   return (
     <BrowserRouter>
-      <Navigation />
+      <Navigation isnav={true} />
       <Routes className="routes">
         {/* <Route path="*" element={<Home />} />  Error */}
         <Route path="/" element={<Home />} />

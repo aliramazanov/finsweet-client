@@ -1,5 +1,5 @@
-import BlogHero from "../components/BlogHero/BlogHero";
 import peoplereadblog from "../../src/img/peoplereadblog.svg";
+import BlogHero from "../components/BlogHero/BlogHero";
 export default function ReadBlog() {
   return (
     <div className="readblog-container">
