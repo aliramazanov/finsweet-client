@@ -1,54 +1,63 @@
+import { useState } from "react";
 import "./FAQ.scss";
 
 export default function FAQ() {
+  const questions = [
+    <div key={0} className="faq-questions-interactive">
+      <span>01</span>
+      <p> How much time does it take?</p>
+    </div>,
+    <div key={2} className="faq-questions-interactive">
+      <span>02</span>
+      <p> How much time does it take?</p>
+    </div>,
+    <div key={3} className="faq-questions-interactive">
+      <span>03</span>
+      <p> How much time does it take?</p>
+    </div>,
+    <div key={4} className="faq-questions-interactive">
+      <span>04</span>
+      <p> How much time does it take?</p>
+    </div>,
+    <div key={5} className="faq-questions-interactive">
+      <span>05</span>
+      <p> How much time does it take?</p>
+    </div>,
+  ];
+
+  const [open, setOpen] = useState(Array(questions.length).fill(false));
+  const toggleQuestion = (index) => {
+    const newOpenState = [...open];
+    newOpenState[index] = !newOpenState[index];
+    setOpen(newOpenState);
+  };
+
   return (
     <div className="faq-section">
-      <section>
-        <div className="faq-hero">
-          <h2>Frequently asked questions</h2>
+      <div className="faq-section-hero">
+        <section>
+          <h3>Frequently asked question</h3>
           <p>Contact us for more info</p>
-        </div>
-      </section>
+        </section>
+      </div>
+
       <section>
         <div className="faq-questions">
-          <div className="question-card">
-            <h2>01</h2>
-            <div className="question-content">
-              <h2>How much time does it take?</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
+          {questions.map((question, index) => (
+            <div className="question-card" key={index}>
+              <h2 onClick={() => toggleQuestion(index)}>{question}</h2>
+              {open[index] && (
+                <div className="faq-displayed-card">
+                  <p className="interactive-p-tag">
+                    Apparently we had reached a great height in the atmosphere,
+                    for the sky was a dead black, and the stars had ceased to
+                    twinkle.
+                  </p>
+                </div>
+              )}
+              <hr />
             </div>
-          </div>
-          <div className="question-card">
-            <h2>02</h2>
-            <div className="question-content">
-              <h2></h2>
-              <p></p>
-            </div>
-          </div>
-          <div className="question-card">
-            <h2>03</h2>
-            <div className="question-content">
-              <h2></h2>
-              <p></p>
-            </div>
-          </div>
-          <div className="question-card">
-            <h2>04</h2>
-            <div className="question-content">
-              <h2></h2>
-              <p></p>
-            </div>
-          </div>
-          <div className="question-card">
-            <h2>05</h2>
-            <div className="question-content">
-              <h2></h2>
-              <p></p>
-            </div>
-          </div>
+          ))}
         </div>
       </section>
     </div>
