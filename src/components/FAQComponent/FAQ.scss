@@ -1,52 +1,56 @@
-h2 {
-  cursor: pointer;
-}
-
-.faq-section-hero {
-  display: flex;
-  max-width: 40%;
-
-  h3 {
-    font-size: 38px;
-  }
-  p {
-    color: #2405f2;
-    cursor: pointer;
-  }
-}
-
 .faq-section {
   padding: 120px;
   display: flex;
   gap: 150px;
-}
+  .faq-section-hero {
+    display: flex;
+    max-width: 45%;
 
-.faq-questions-interactive {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 600px;
-  gap: 30px;
-  p {
+    h3 {
+      font-size: 38px;
+    }
+    p {
+      color: #2405f2;
+      cursor: pointer;
+    }
+    a {
+      text-decoration: none;
+      color: #2405f2;
+    }
+
+    a:active {
+      color: #2405f2;
+    }
+  }
+  .faq-questions-interactive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 600px;
+    gap: 30px;
+    p {
+      width: 600px;
+    }
+    span {
+      color: #2405f2;
+    }
   }
-  span {
-    color: #2405f2;
+  .question-card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    h2 {
+      cursor: pointer;
+    }
+    hr {
+      width: 600px;
+      margin-top: 10px;
+    }
+    p {
+      width: 600px;
+      margin: 0;
+      padding: 0;
+    }
   }
-}
-
-.faq-displayed-card {
-  width: 600px;
-  margin: 0;
-  padding: 0;
-}
-
-.question-card {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 600px;
-}
-hr {
-  width: 600px;
 }

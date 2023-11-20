@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
+
 import "./FAQ.scss";
 
 export default function FAQ() {
@@ -37,7 +39,7 @@ export default function FAQ() {
       <div className="faq-section-hero">
         <section>
           <h3>Frequently asked question</h3>
-          <p>Contact us for more info</p>
+          <NavLink to="/contactus">Contact us for more info</NavLink>
         </section>
       </div>
 
@@ -47,13 +49,11 @@ export default function FAQ() {
             <div className="question-card" key={index}>
               <h2 onClick={() => toggleQuestion(index)}>{question}</h2>
               {open[index] && (
-                <div className="faq-displayed-card">
-                  <p className="interactive-p-tag">
-                    Apparently we had reached a great height in the atmosphere,
-                    for the sky was a dead black, and the stars had ceased to
-                    twinkle.
-                  </p>
-                </div>
+                <p className="interactive-p-tag">
+                  Apparently we had reached a great height in the atmosphere,
+                  for the sky was a dead black, and the stars had ceased to
+                  twinkle.
+                </p>
               )}
               <hr />
             </div>
