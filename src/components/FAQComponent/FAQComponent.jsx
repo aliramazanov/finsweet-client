@@ -11,19 +11,19 @@ export default function FAQ() {
     </div>,
     <div key={2} className="faq-questions-interactive">
       <span>02</span>
-      <p> How much time does it take?</p>
+      <p> What is your class naming convention?</p>
     </div>,
     <div key={3} className="faq-questions-interactive">
       <span>03</span>
-      <p> How much time does it take?</p>
+      <p> How do we communicate?</p>
     </div>,
     <div key={4} className="faq-questions-interactive">
       <span>04</span>
-      <p> How much time does it take?</p>
+      <p> I have a bigger project. Can you handel it?</p>
     </div>,
     <div key={5} className="faq-questions-interactive">
       <span>05</span>
-      <p> How much time does it take?</p>
+      <p> What is your class naming convention?</p>
     </div>,
   ];
 
@@ -49,7 +49,7 @@ export default function FAQ() {
             <div className="question-card" key={index}>
               <h2 onClick={() => toggleQuestion(index)}>{question}</h2>
               {open[index] && (
-                <p className="interactive-p-tag">
+                <p>
                   Apparently we had reached a great height in the atmosphere,
                   for the sky was a dead black, and the stars had ceased to
                   twinkle.
