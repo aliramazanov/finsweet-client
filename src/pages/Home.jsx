@@ -9,6 +9,7 @@ import homeblog1 from "../../src/img/homeblog1.svg";
 import homeblog2 from "../../src/img/homeblog2.svg";
 import homeblog3 from "../../src/img/homeblog3.svg";
 import Footer from "../components/Footer/Footer";
+import FAQComponent from "../components/FAQComponent/FAQComponent";
 
 export const Home = () => {
   return (
@@ -18,6 +19,7 @@ export const Home = () => {
       <OurProjects />
       <Features />
       <Feedback />
+      <FAQComponent />
       <Inquiry />
       <div className="blog-ending">
         <h3>Our blog</h3>
