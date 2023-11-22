@@ -33,12 +33,13 @@
     border-radius: 50%;
     img {
       max-width: 10px;
+      border-radius: 50%;
     }
   }
 }
 
 .feedback-reviews {
-  max-width: 800px;
+  max-width: 750px;
   display: flex;
   flex-direction: column;
   justify-content: center;
