@@ -3,16 +3,17 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 30px;
   h3 {
     align-self: flex-start;
-    max-width: 1200px;
-    padding-left: 170px;
+    max-width: 1300px;
+    padding-left: 120px;
     padding-bottom: 20px;
     font-size: 32px;
   }
 
   .blog-grids-home {
-    max-width: 1200px;
+    max-width: 1300px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;

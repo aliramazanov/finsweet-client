@@ -37,8 +37,8 @@ export default function Footer() {
             presence and help with your UX/UI design challenges.
           </p>
           <div className="footer-social-icons">
-            <img src={twitter} alt="Social" />
             <img src={facebook} alt="Social" />
+            <img src={twitter} alt="Social" />
             <img src={instagram} alt="Social" />
             <img src={linkedin} alt="Social" />
           </div>
