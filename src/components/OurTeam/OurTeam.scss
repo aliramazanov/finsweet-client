@@ -19,6 +19,8 @@
     gap: 30px;
 
     .team-card {
+      position: relative;
+      cursor: pointer;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -39,6 +41,38 @@
       p {
         margin: 0;
       }
+
+      .image-container {
+        position: relative;
+      }
+
+      .overlay-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 96%;
+        object-fit: cover;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+      }
+    }
+    .team-card:hover .overlay-image {
+      opacity: 1;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 70%;
+    }
+
+    .social-icon {
+      width: 15px;
+      height: 15px;
     }
   }
 }
