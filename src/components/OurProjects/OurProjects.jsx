@@ -8,7 +8,7 @@ export default function OurProjects() {
   return (
     <div className="ourprojects">
       <section>
-        <div className="header">
+        <div className="projects-header">
           <h2>View our projects</h2>
           <NavLink to="/portfolio">View more →</NavLink>
         </div>

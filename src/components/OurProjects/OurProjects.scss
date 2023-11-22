@@ -1,37 +1,33 @@
 .ourprojects {
-  margin-left: 50px;
-  margin-right: 50px;
   margin-top: 20px;
-}
-
-.header {
-  margin: 0 150px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  h2 {
-    font-size: 36px;
-  }
-
-  button {
-    font-size: 16px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  margin-bottom: 10px;
-}
-
-.all-cards {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  .projects-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    width: 1300px;
+    h2 {
+      font-size: 36px;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+      margin-right: 50px;
+    }
+  }
+}
+
+.all-cards {
+  width: 1300px;
+  display: flex;
+  align-items: center;
   .big-card {
-    margin: 20px;
     img {
-      width: 740px;
+      width: 840px;
     }
   }
   .small-cards {
@@ -40,7 +36,7 @@
     .small-card {
       margin: 20px;
       img {
-        width: 350px;
+        width: 400px;
       }
     }
   }

@@ -1,5 +1,6 @@
 .inquiry-container {
-  margin: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   .inquiry-content {
     display: flex;
     justify-content: center;
@@ -7,7 +8,7 @@
     width: 1200px;
     margin: 0 auto;
     form {
-      width: 500px;
+      width: 600px;
       height: 500px;
       padding: 50px;
       color: white;
@@ -23,7 +24,7 @@
         font-size: 26px;
         font-weight: normal;
         align-self: flex-start;
-        margin-left: 45px;
+        margin-left: 95px;
         margin-top: 0;
         margin-bottom: 0;
         margin-right: 0;
@@ -72,7 +73,7 @@
   }
 
   .inquiry-hero {
-    width: 600px;
+    min-width: 600px;
     height: 600px;
     display: flex;
     flex-direction: column;

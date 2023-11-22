@@ -14,7 +14,7 @@ export default function Hero() {
         </h3>
         <div className="hero-buttons">
           <ViewOurWork />
-          <NavLink to="/pricing">View Pricing</NavLink>
+          <NavLink to="/pricing">View Pricing →</NavLink>
         </div>
       </div>
       <div className="hero-img">

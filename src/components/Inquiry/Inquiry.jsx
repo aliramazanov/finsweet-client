@@ -20,7 +20,7 @@ export default function Inquiry() {
               eiusmod tempor incididunt ut labore.
             </p>
             <label htmlFor="name">
-              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="Your Name" />
             </label>
             <label htmlFor="name">
               <input type="email" placeholder="Email" />

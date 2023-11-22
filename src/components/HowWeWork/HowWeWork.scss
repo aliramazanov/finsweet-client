@@ -23,6 +23,13 @@
       padding: 0;
       cursor: pointer;
     }
+    a {
+      text-decoration: none;
+      color: #2405f2;
+    }
+    a:active {
+      color: #2405f2;
+    }
   }
   .pointers {
     display: grid;
