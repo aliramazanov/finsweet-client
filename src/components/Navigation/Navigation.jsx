@@ -4,7 +4,7 @@ import "./Navigation.scss";
 
 export default function Navigation({ isnav }) {
   return (
-    <div className="navigation">
+    <div className={isnav ? "navigation" : "footer-nav"}>
       {isnav && (
         <NavLink className="navlinks" to="/">
           <div className="logo">

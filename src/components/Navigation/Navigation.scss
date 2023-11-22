@@ -19,3 +19,20 @@ img {
 .footer-copyright {
   color: white;
 }
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  color: black;
+  .navlinks {
+    margin: 20px;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+  }
+  p {
+    color: black;
+  }
+}
