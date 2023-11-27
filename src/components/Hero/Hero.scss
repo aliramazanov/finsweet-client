@@ -23,7 +23,7 @@
 .hero-buttons {
   display: flex;
   align-items: center;
-  a {
+  .pricing {
     margin-top: 20px;
     color: white;
     text-decoration: none;
@@ -33,4 +33,24 @@
 .hero-img img {
   margin-top: 40px;
   width: 650px;
+}
+
+.viewourwork {
+  margin-top: 20px;
+  text-decoration: none;
+  padding: 15px 38px;
+  background: #fcd980;
+  border-color: transparent;
+  border-radius: 30px;
+  color: black;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+.viewourwork:active {
+  color: black;
+}
+
+.viewourwork:visited {
+  color: black;
 }

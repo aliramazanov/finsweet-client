@@ -1,5 +1,6 @@
 import "./FeaturesHero.scss";
 import features from "../../../src/img/features.svg";
+import { NavLink } from "react-router-dom";
 export default function FeaturesHero() {
   return (
     <div className="features-page">
@@ -10,7 +11,9 @@ export default function FeaturesHero() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <button>View Pricing</button>
+          <NavLink className={"viewpricing-features"} to="/pricing">
+            View Pricing
+          </NavLink>
         </div>
         <div className="header-img-features">
           <img src={features} alt="" />

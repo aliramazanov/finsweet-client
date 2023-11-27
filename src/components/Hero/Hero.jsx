@@ -1,7 +1,6 @@
-import "./Hero.scss";
-import illustartion from "../../img/illustration.svg";
-import ViewOurWork from "../Buttons/ViewOurWork/ViewOurWork";
 import { NavLink } from "react-router-dom";
+import illustartion from "../../img/illustration.svg";
+import "./Hero.scss";
 
 export default function Hero() {
   return (
@@ -13,8 +12,12 @@ export default function Hero() {
           eiusmod tempor incididunt.
         </h3>
         <div className="hero-buttons">
-          <ViewOurWork />
-          <NavLink to="/pricing">View Pricing →</NavLink>
+          <NavLink className={"viewourwork"} to="/portfolio">
+            View our work
+          </NavLink>
+          <NavLink className={"pricing"} to="/pricing">
+            View Pricing →
+          </NavLink>
         </div>
       </div>
       <div className="hero-img">
