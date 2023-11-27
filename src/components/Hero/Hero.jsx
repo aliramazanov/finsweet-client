@@ -1,5 +1,5 @@
 import "./Hero.scss";
-import illustartion from "../../img/illustration.png";
+import illustartion from "../../img/illustration.svg";
 import ViewOurWork from "../Buttons/ViewOurWork/ViewOurWork";
 import { NavLink } from "react-router-dom";
 

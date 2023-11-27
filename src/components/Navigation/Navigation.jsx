@@ -1,14 +1,14 @@
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 import "./Navigation.scss";
-
+import logo from "/logo.svg";
 export default function Navigation({ isnav }) {
   return (
     <div className={isnav ? "navigation" : "footer-nav"}>
       {isnav && (
         <NavLink className="navlinks" to="/">
           <div className="logo">
-            <img src="/logo.png" alt="" />
+            <img src={logo} alt="" />
           </div>
         </NavLink>
       )}

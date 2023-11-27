@@ -1,5 +1,5 @@
 import "./FeaturesHero.scss";
-
+import features from "../../../src/img/features.svg";
 export default function FeaturesHero() {
   return (
     <div className="features-page">
@@ -13,7 +13,7 @@ export default function FeaturesHero() {
           <button>View Pricing</button>
         </div>
         <div className="header-img-features">
-          <img src="../../../src/img/features.png" alt="" />
+          <img src={features} alt="" />
         </div>
       </div>
     </div>

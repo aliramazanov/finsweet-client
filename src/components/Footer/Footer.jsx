@@ -4,6 +4,7 @@ import twitter from "../../../src/img/twitter.svg";
 import facebook from "../../../src/img/facebook.svg";
 import instagram from "../../../src/img/instagram.svg";
 import linkedin from "../../../src/img/linkedin.svg";
+import logo from "/logo.svg";
 
 export default function Footer() {
   return (
@@ -12,7 +13,7 @@ export default function Footer() {
         <div className="footer-container-left">
           <div className="footer-hero">
             <div className="footer-logo-container">
-              <img src="./logo.png" alt="Company Logo" />
+              <img src={logo} alt="Company Logo" />
             </div>
             <p>
               We are always open to discuss your project and improve your online
