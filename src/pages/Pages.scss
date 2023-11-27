@@ -263,7 +263,7 @@
   justify-content: center;
 
   .template-hero {
-    padding: 30px 100px;
+    padding: 30px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -275,20 +275,21 @@
     }
 
     p {
-      width: 900px;
+      width: 1200px;
+      margin-bottom: 40px;
     }
 
     .template-page-img {
       align-self: center;
 
       img {
-        width: 900px;
+        width: 1200px;
       }
     }
   }
 
   .template-info {
-    width: 59vw;
+    width: 1200px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -309,26 +310,36 @@
     }
   }
   hr {
-    width: 59vw;
+    width: 1200px;
     border: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
   .about-project {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 700px;
+    max-width: 900px;
+
     ul {
-      width: 700px;
+      width: 900px;
+
+      li {
+        margin-bottom: 30px;
+      }
     }
+
     img {
-      width: 700px;
+      width: 900px;
     }
+
     h3 {
-      font-size: 32px;
-      margin: 5px 0;
+      font-size: 38px;
+      margin: 15px 0;
     }
   }
+
   .template-keywords {
     display: flex;
     align-items: center;
